@@ -1,0 +1,189 @@
+body {
+   width:100%;
+   position: relative;
+   background-color: #FFE680;
+   overflow: hidden;
+}
+.main{
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+}
+
+.Title {
+   text-align: center;
+}
+
+.theBar {
+   width: 500px;
+   height: 12px;
+   background-color: #4C1F00;
+}
+
+.theListEditor {
+   display: inline-block;
+   width: 500px;
+   height: 30px;
+}
+
+.listChevron {
+   font-size: 1.25em;
+   transform:rotate(90deg);
+   -ms-transform:rotate(90deg); /* IE 9 */
+   -webkit-transform:rotate(90deg); /* Opera, Chrome, and Safari */;
+   display: inline;
+   margin: 0;
+   float: left;
+   text-align: center;
+   width: 26px;
+   height: 26px;
+   background-color: white;
+   border-style: solid;
+   border-width: 2px;
+   border-color: #4C1F00;
+}
+
+.listEditable {
+   display: inline;
+   padding: 0;
+   margin: 0;
+   border-width: 2px;
+   border-style: solid;
+   border-color: #4C1F00;
+   width: 466px;
+   height: 26px;
+   font-size: 1.25em;
+}
+
+.theListDisplay {
+   width: 500px;
+   height: 30px;
+   margin: 0;
+   padding: 0;
+}
+
+#theList {
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.anItem {
+   list-style: none;
+   display: block;
+   width: 496px;
+   height: 26px;
+   background-color: white;
+   border-style: solid;
+   border-width: 2px;
+   border-color: #4C1F00;
+}
+
+.itemID {
+   display: none;
+}
+
+.itemCheckOff {
+   font-size: 1.125em;
+   display: inline;
+   margin: 0;
+   float: left;
+   text-align: center;
+   width: 26px;
+   height: 26px;
+   background-color: white;
+   border-right-style: solid;
+   border-right-width: 2px;
+   border-color: #4C1F00;
+}
+
+.listItem {
+   width: 436px;
+   height: 26px;
+   font-size: 1.25em;
+   display: inline-block;
+   padding: 0;
+   margin: 0;
+   background-color: white;
+   border-left-style: solid;
+   border-left-width: 2px;
+   border-color: #4C1F00;
+}
+
+.removeItem {
+   width: 26px;
+   height: 26px;
+   margin: 0;
+   padding: 0;
+   display: inline;
+   float: right;
+   text-align: center;
+   font-size: 1.125em;
+/*   -webkit-transition: all 0.2s;
+   transition: all 0.2s;            */
+}
+
+.clearFloat {
+   clear: both;
+}
+
+.counterBar{
+   width: 500px;
+   height: 24px;
+   background-color: #CDCDCD;
+}
+
+ #countDiv{
+   display: inline;
+/*  border-style: solid;
+   border-width: 1px;
+   border-color: red;   */
+}
+
+ #listCount{
+
+}
+
+ #displayFilter{
+   list-style: none;
+   display: inline;
+   width: 250px;
+/*   border-style: solid;
+   border-width: 1px;
+   border-color: red;    */
+}
+
+.filterButton {
+   list-style: none;
+   display: inline;
+/*   border-style: solid;
+   border-width: 1px;
+   border-color: red;    */
+}
+
+#filterButtonAll { }
+
+#filterButtonActive { }
+
+#filterButtonCompleted { }
+
+#removeCompleted {
+   display: inline;
+   float: right;
+/*  border: solid;
+   border-width: 1px;
+   border-color: red;    */
+/*  display: none;       */
+}
+ 
+.footer {
+   width: 500px;
+   height: 28px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#listTemplate {
+   display: none;
+}

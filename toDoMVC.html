@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <script type="text/javascript" src="../../../assets/jquery-2.1.1.js"></script>
+   <script type="text/javascript" src="toDoMVC.js"></script>
+   <link rel="stylesheet" type="text/css" href="toDoMVC.css">
+</head>
+   <body>
+      <div class="main">
+         <h1 class="Title">todos</h1>
+         <div class="theBar"></div>
+         <div class="theListEditor">
+            <span id="listChevron" class="listChevron">&raquo;</span>
+            <input id="new-todo" class="listEditable" type="text" name="todoDescription" autofocus="" placeholder="  What needs to be done?"></input>
+         </div>
+         <div class="theListDisplay">
+            <ul id="theList">
+            </ul>
+         </div>
+         <div class="clearFloat">&nbsp;</div>
+         <div class="counterBar">
+            <div id="countDiv"><span id="listCount">#</span><span id="listCountDescription"> todo items</span></div>
+            <ul id="displayFilter">
+               <li id="filterButtonAll" class="filterButton">All</li>
+               <li id="filterButtonActive" class="filterButton">Active</li>
+               <li id="filterButtonCompleted" class="filterButton">Completed</li>
+            </ul>
+            <button id="removeCompleted">clear (<span id="completedCount">#</span>) completed </button>
+         </div>
+         <div class="clearFloat">&nbsp;</div>
+<!--         <div class="footer">&copy; 2014</div>       -->
+         <div id="listTemplate">
+            <li class="anItem">
+               <span class="itemID">id</span>
+               <span class="itemCheckOff">&checkmark;</span>
+               <span class="listItem">another</span>
+               <span class="removeItem">&nbsp;</span>
+            </li>
+         </div>
+      </div>
+   </body>
+</html>
